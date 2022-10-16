@@ -11762,8 +11762,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url('../assets/img/hero-bg-candles.jpg');
-  /* background-image: url('../assets/img/hero-bg-gifts.jpg'); */
+  /* background-image: url('../assets/img/hero-bg-candles.jpg'); */
+  background-image: url('../assets/img/hero-bg-gifts.jpg');
   position: relative;
 
   background-repeat: no-repeat;
@@ -11779,7 +11779,7 @@ header.masthead {
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.4);
   display: flex;
   align-items: center;
   justify-self: center;
