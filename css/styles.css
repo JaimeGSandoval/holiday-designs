@@ -12108,6 +12108,7 @@ section#contact {
   background-image: url('../assets/img/map-image.png');
   background-repeat: no-repeat;
   background-position: center;
+  line-height: 0;
 }
 section#contact .section-heading {
   color: #fff;
@@ -12177,4 +12178,18 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .candle-img {
   width: 90%;
+}
+
+.how-works-text {
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.phone,
+.email {
+  font-size: 1.2rem;
+}
+
+.spacer {
+  height: 2px;
 }
