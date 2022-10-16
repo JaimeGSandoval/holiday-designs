@@ -11632,6 +11632,7 @@ html {
 body {
   position: relative;
   overflow-x: hidden;
+  background: #2b251d;
 }
 
 p {
@@ -11764,7 +11765,6 @@ header.masthead {
   color: #fff;
   background-image: url('../assets/img/hero-bg-candles.jpg');
   position: relative;
-
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11778,7 +11778,7 @@ header.masthead {
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-self: center;
@@ -12188,8 +12188,4 @@ section#contact form#contactForm :-ms-input-placeholder {
 .phone,
 .email {
   font-size: 1.2rem;
-}
-
-.spacer {
-  height: 2px;
 }
