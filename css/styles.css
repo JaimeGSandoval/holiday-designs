@@ -11762,8 +11762,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  /* background-image: url('../assets/img/hero-bg-candles.jpg'); */
-  background-image: url('../assets/img/hero-bg-gifts.jpg');
+  background-image: url('../assets/img/hero-bg-candles.jpg');
   position: relative;
 
   background-repeat: no-repeat;
@@ -11787,7 +11786,7 @@ header.masthead {
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
-  line-height: 1.5rem;
+  line-height: 2.2rem;
   margin-bottom: 25px;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
@@ -12170,6 +12169,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   background: #2b251d;
 }
 
-.test {
-  font-weight: bold;
+.about-me-description {
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  width: 90%;
+}
+
+.candle-img {
+  width: 90%;
 }
