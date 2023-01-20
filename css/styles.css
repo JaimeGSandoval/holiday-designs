@@ -2874,7 +2874,9 @@ textarea.form-control-lg {
   border-bottom-right-radius: 0;
 }
 .input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(
+    .invalid-tooltip
+  ):not(.invalid-feedback) {
   margin-left: -1px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -4329,9 +4331,15 @@ fieldset:disabled .btn {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 0.8rem;
   text-decoration: none;
   white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
 }
 .navbar-nav {
   display: flex;
@@ -11673,7 +11681,7 @@ p {
   }
 }
 .btn-xl {
-  padding: 1.25rem 2.5rem;
+  padding: 1rem 1.2rem;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.125rem;
@@ -11774,7 +11782,13 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  height: 100vh;
+  height: 37.5rem;
+}
+
+@media screen and (min-width: 375px) {
+  header.masthead {
+    height: 43.75rem;
+  }
 }
 
 .overlay {
@@ -11810,6 +11824,7 @@ header.masthead .masthead-heading {
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
+    height: 800px;
   }
   header.masthead .masthead-subheading {
     font-size: 2rem;
@@ -12214,5 +12229,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   header.masthead .masthead-heading {
     margin-top: 1rem;
     font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  header.masthead {
+    height: 59.3rem;
   }
 }
